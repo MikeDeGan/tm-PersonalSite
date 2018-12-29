@@ -1,5 +1,6 @@
 @import 'config';
- 
+@import 'menu';
+
 * {
   box-sizing: border-box;
 }
@@ -14,7 +15,9 @@ body {
 }
 
 // headings
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 400;
 
